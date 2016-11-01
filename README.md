@@ -1,8 +1,10 @@
 #README
 
-##PREREQUISITES:
-1.Git clone from the URL https://github.com/SteffiBaumgart/Other/BusinessOpticsTask
+##PRE-REQUISITES:
+1.Git clone from the [https://github.com/SteffiBaumgart/Other/BusinessOpticsTask](this link)
+
 2.Ensure that Python is installed (any version)
+
 3.Ensure that the Flask and Requests libraries are installed, as well as D3.js
 
 ##HOW TO RUN:
