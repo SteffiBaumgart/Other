@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Main Page </title>
+<style>
+a:link {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: red;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+</style>
+</head>
+<body>
+
+<p>Titanic Survival</p>
+
+<a href="templates/sex.html">Survival by sex <br /></a>
+<a href="cabclass.html">Survival by cabin class <br /></a>
+<a href="age.html">Survival by age <br /></a>
+
+</body>
+</html>
