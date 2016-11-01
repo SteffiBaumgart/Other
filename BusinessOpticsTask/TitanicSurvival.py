@@ -1,4 +1,4 @@
-#Titianic Survival
+#Titanic Survival
 #Steffi Baumgart
 #October 2016
 
@@ -28,7 +28,6 @@ class Passenger:
 
 @app.route('/', methods=['GET', 'POST'])
 def home():
-
     return render_template('index.html')
 
 @app.route('/graphs')
@@ -110,7 +109,7 @@ def graphs():
     third = cabclassSurvived.count("3")
 
 
-    #Save each queries results to .tsv file
+    #Save each query's results to .tsv file
     with open("sex.tsv", "w") as f:
      print ("%s\t%s\t%s" % ("men", "women"), file=f)
      print ("%s\t%s\t%s" % (men, women), file=f)
